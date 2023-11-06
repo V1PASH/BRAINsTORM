@@ -1850,6 +1850,162 @@ while run:
                     mixer.music.play()
                     alphabets[0]=False
         
+# skip screen
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[1]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[0]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[0]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[0]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[0]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[0]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[0]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[0]=False    
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -1925,7 +2081,163 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/c.mp3")
                     mixer.music.play()
                     alphabets[1]=False
-        
+# skip screen
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[1]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[1]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[1]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[1]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[1]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[1]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[1]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[1]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[1]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[1]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[1]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[1]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[1]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[1]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[1]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[1]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[1]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[1]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[1]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[1]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[1]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[1]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[1]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[1]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[1]=False
+                
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -2002,7 +2314,164 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/d.mp3")
                     mixer.music.play()
                     alphabets[2]=False
-        
+
+# skip
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[2]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[2]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[2]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[2]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[2]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[2]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[2]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[2]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[2]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[2]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[2]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[2]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[2]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[2]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[2]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[2]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[2]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[2]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[2]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[2]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[2]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[2]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[2]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[2]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[2]=False
+                
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -2079,7 +2548,163 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/e.mp3")
                     mixer.music.play()
                     alphabets[3]=False
-        
+# skip screen
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[3]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[3]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[3]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[3]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[3]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[3]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[3]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[3]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[3]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[3]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[3]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[3]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[3]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[3]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[3]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[3]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[3]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[3]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[3]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[3]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[3]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[3]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[3]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[3]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[3]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[3]=False
+                
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -2156,7 +2781,164 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/f.mp3")
                     mixer.music.play()
                     alphabets[4]=False
-        
+
+# skip screen
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[1]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[4]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[4]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[4]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[4]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[4]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[4]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[4]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[4]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[4]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[4]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[4]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[4]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[4]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[4]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[4]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[4]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[4]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[4]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[4]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[4]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[4]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[4]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[4]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[4]=False
+
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -2233,7 +3015,164 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/g.mp3")
                     mixer.music.play()
                     alphabets[5]=False
-        
+
+# skip screen
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[5]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[5]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[5]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[5]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[5]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[5]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[5]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[5]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[5]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[5]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[5]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[5]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[5]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[5]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[5]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[5]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[5]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[5]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[5]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[5]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[5]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[5]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[5]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[5]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[5]=False
+
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -2310,7 +3249,164 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/h.mp3")
                     mixer.music.play()
                     alphabets[6]=False
-        
+# skip screen
+
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[6]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[6]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[6]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[6]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[6]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[6]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[6]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[6]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[6]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[6]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[6]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[6]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[6]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[6]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[6]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[6]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[6]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[6]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[6]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[6]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[6]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[6]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[6]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[6]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[6]=False
+                
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -2387,7 +3483,164 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/i.mp3")
                     mixer.music.play()
                     alphabets[7]=False
-        
+# skip screen
+
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[7]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[7]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[7]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[7]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[7]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[7]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[7]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[7]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[7]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[7]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[7]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[7]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[7]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[7]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[7]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[7]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[7]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[7]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[7]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[7]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[7]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[7]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[7]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[7]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[7]=False
+                
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -2464,7 +3717,165 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/j.mp3")
                     mixer.music.play()
                     alphabets[8]=False
-        
+
+# skip screen
+
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[8]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[8]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[8]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[8]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[8]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[8]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[8]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[8]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[8]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[8]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[8]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[8]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[8]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[8]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[8]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[8]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[8]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[8]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[8]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[8]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[8]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[8]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[8]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[8]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[8]=False
+                
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -2541,6 +3952,164 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/k.mp3")
                     mixer.music.play()
                     alphabets[9]=False
+
+# skip screen
+
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[9]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[9]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[9]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[9]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[9]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[9]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[9]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[9]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[9]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[9]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[9]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[9]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[9]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[9]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[9]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[9]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[9]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[9]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[9]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[9]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[9]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[9]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[9]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[9]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[9]=False
         
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
@@ -2618,7 +4187,164 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/l.mp3")
                     mixer.music.play()
                     alphabets[10]=False
-        
+# skip screen
+
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[10]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[10]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[10]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[10]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[10]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[10]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[10]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[10]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[10]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[10]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[10]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[10]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[10]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[10]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[10]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[10]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[10]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[10]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[10]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[10]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[10]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[10]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[10]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[10]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[10]=False
+                
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -2695,6 +4421,165 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/m.mp3")
                     mixer.music.play()
                     alphabets[11]=False
+
+# skip screen
+
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[11]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[11]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[11]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[11]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[11]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[11]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[11]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[11]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[11]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[11]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[11]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[11]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[11]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[11]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[11]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[11]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[11]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[11]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[11]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[11]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[11]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[11]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[11]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[11]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[11]=False
+                
         
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
@@ -2772,7 +4657,165 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/n.mp3")
                     mixer.music.play()
                     alphabets[12]=False
-        
+
+# skip screen
+
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[12]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[12]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[12]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[12]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[12]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[12]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[12]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[12]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[12]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[12]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[12]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[12]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[12]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[12]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[12]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[12]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[12]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[12]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[12]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[12]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[12]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[12]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[12]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[12]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[12]=False
+
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -2849,7 +4892,165 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/o.mp3")
                     mixer.music.play()
                     alphabets[13]=False
-        
+
+# skip screen
+
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[13]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[13]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[13]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[13]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[13]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[13]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[13]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[13]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[13]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[13]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[13]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[13]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[13]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[13]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[13]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[13]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[13]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[13]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[13]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[13]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[13]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[13]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[13]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[13]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[13]=False
+       
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -2926,7 +5127,165 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/p.mp3")
                     mixer.music.play()
                     alphabets[14]=False
-        
+
+# skip screen
+
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[14]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[14]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[14]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[14]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[14]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[14]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[14]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[14]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[14]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[14]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[14]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[14]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[14]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[14]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[14]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[14]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[14]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[14]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[14]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[14]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[14]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[14]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[14]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[14]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[14]=False
+       
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -3003,7 +5362,165 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/q.mp3")
                     mixer.music.play()
                     alphabets[15]=False
-        
+
+# skip screen
+
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[15]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[15]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[15]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[15]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[15]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[15]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[15]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[15]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[15]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[15]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[15]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[15]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[15]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[15]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[15]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[15]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[15]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[15]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[15]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[15]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[15]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[15]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[15]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[15]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[15]=False
+
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -3080,7 +5597,165 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/r.mp3")
                     mixer.music.play()
                     alphabets[16]=False
-        
+
+# skip screen
+
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[16]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[16]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[16]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[16]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[16]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[16]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[16]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[16]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[16]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[16]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[16]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[16]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[16]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[16]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[16]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[16]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[16]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[16]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[16]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[16]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[16]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[16]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[16]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[16]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[16]=False
+                
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -3157,7 +5832,165 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/s.mp3")
                     mixer.music.play()
                     alphabets[17]=False
-        
+
+# skip screen
+
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[17]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[17]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[17]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[17]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[17]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[17]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[17]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[17]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[17]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[17]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[17]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[17]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[17]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[17]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[17]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[17]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[17]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[17]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[17]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[17]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[17]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[17]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[17]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[17]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[17]=False
+   
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -3234,7 +6067,165 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/t.mp3")
                     mixer.music.play()
                     alphabets[18]=False
-        
+
+# skip screen
+
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[18]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[18]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[18]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[18]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[18]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[18]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[18]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[18]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[18]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[18]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[18]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[18]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[18]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[18]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[18]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[18]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[18]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[18]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[0]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[18]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[18]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[18]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[18]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[18]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[18]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[18]=False
+
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -3311,7 +6302,165 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/u.mp3")
                     mixer.music.play()
                     alphabets[19]=False
-        
+
+# skip screen
+
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[19]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[19]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[19]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[19]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[19]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[19]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[19]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[19]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[19]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[19]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[19]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[19]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[19]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[19]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[19]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[19]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[19]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[19]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[19]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[0]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[19]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[19]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[19]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[19]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[19]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[19]=False
+
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -3388,7 +6537,165 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/v.mp3")
                     mixer.music.play()
                     alphabets[20]=False
-        
+
+# skip screen
+
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[20]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[20]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[20]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[20]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[20]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[20]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[20]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[20]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[20]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[20]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[20]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[20]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[20]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[20]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[20]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[20]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[20]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[20]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[20]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[20]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[0]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[20]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[20]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[20]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[20]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[20]=False
+
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -3465,7 +6772,165 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/w.mp3")
                     mixer.music.play()
                     alphabets[21]=False
-        
+
+# skip screen
+
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[21]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[21]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[21]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[21]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[21]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[21]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[21]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[21]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[21]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[21]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[21]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[21]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[21]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[21]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[21]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[21]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[21]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[21]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[21]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[21]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[21]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[0]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[21]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[21]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[21]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[21]=False
+
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -3542,7 +7007,165 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/x.mp3")
                     mixer.music.play()
                     alphabets[22]=False
-        
+
+# skip screen
+
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[22]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[22]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[22]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[22]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[22]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[22]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[22]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[22]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[22]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[22]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[22]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[22]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[22]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[22]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[22]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[22]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[22]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[22]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[22]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[22]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[22]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[22]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[0]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[22]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[22]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[22]=False
+
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -3619,7 +7242,165 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/y.mp3")
                     mixer.music.play()
                     alphabets[23]=False
-        
+
+# skip screen
+
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[23]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[23]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[23]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[23]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[23]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[23]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[23]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[23]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[23]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[23]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[23]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[23]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[23]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[23]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[23]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[23]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[23]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[23]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[23]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[23]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[23]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[23]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[23]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[0]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[23]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[23]=False
+
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -3696,7 +7477,165 @@ while run:
                     mixer.music.load("asset/modes/alphabets/audio/z.mp3")
                     mixer.music.play()
                     alphabets[24]=False
-        
+
+# skip screen
+
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[24]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[24]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[24]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[24]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[24]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[24]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[24]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[24]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[24]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[24]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[24]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[24]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[24]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[24]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[24]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[24]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[24]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[24]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[24]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[24]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[24]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[24]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[24]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[24]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[0]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[24]=False
+
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
@@ -3760,7 +7699,165 @@ while run:
             if event.type==KEYDOWN and event.key in[K_z]:
                 mixer.music.load("asset/modes/alphabets/audio/z.mp3")
                 mixer.music.play()
-        
+
+# skip screen
+
+            if event.type==KEYDOWN and event.key in[K_a]:
+                    alphabets[0]=True
+                    mixer.music.load("asset/modes/alphabets/audio/a.mp3")
+                    mixer.music.play()
+                    alphabets[25]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_b]:
+                    alphabets[1]=True
+                    mixer.music.load("asset/modes/alphabets/audio/b.mp3")
+                    mixer.music.play()
+                    alphabets[25]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_c]:
+                    alphabets[2]=True
+                    mixer.music.load("asset/modes/alphabets/audio/c.mp3")
+                    mixer.music.play()
+                    alphabets[25]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_d]:
+                    alphabets[3]=True
+                    mixer.music.load("asset/modes/alphabets/audio/d.mp3")
+                    mixer.music.play()
+                    alphabets[25]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_e]:
+                    alphabets[4]=True
+                    mixer.music.load("asset/modes/alphabets/audio/e.mp3")
+                    mixer.music.play()
+                    alphabets[25]=False
+
+            if event.type==KEYDOWN and event.key in[K_f]:
+                    alphabets[5]=True
+                    mixer.music.load("asset/modes/alphabets/audio/f.mp3")
+                    mixer.music.play()
+                    alphabets[25]=False
+ 
+            if event.type==KEYDOWN and event.key in[K_g]:
+                    alphabets[6]=True
+                    mixer.music.load("asset/modes/alphabets/audio/g.mp3")
+                    mixer.music.play()
+                    alphabets[25]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_h]:
+                    alphabets[7]=True
+                    mixer.music.load("asset/modes/alphabets/audio/h.mp3")
+                    mixer.music.play()
+                    alphabets[25]=False         
+
+            if event.type==KEYDOWN and event.key in[K_i]:
+                    alphabets[8]=True
+                    mixer.music.load("asset/modes/alphabets/audio/i.mp3")
+                    mixer.music.play()
+                    alphabets[25]=False     
+
+            if event.type==KEYDOWN and event.key in[K_j]:
+                    alphabets[9]=True
+                    mixer.music.load("asset/modes/alphabets/audio/j.mp3")
+                    mixer.music.play()
+                    alphabets[25]=False
+
+            if event.type==KEYDOWN and event.key in[K_k]:
+                    alphabets[10]=True
+                    mixer.music.load("asset/modes/alphabets/audio/k.mp3")
+                    mixer.music.play()
+                    alphabets[25]=False     
+                                    
+            if event.type==KEYDOWN and event.key in[K_l]:
+                    alphabets[11]=True
+                    mixer.music.load("asset/modes/alphabets/audio/l.mp3")
+                    mixer.music.play()
+                    alphabets[25]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_m]:
+                    alphabets[12]=True
+                    mixer.music.load("asset/modes/alphabets/audio/m.mp3")
+                    mixer.music.play()
+                    alphabets[25]=False    
+    
+            if event.type==KEYDOWN and event.key in[K_n]:
+                    alphabets[13]=True
+                    mixer.music.load("asset/modes/alphabets/audio/n.mp3")
+                    mixer.music.play()
+                    alphabets[25]=False 
+
+            if event.type==KEYDOWN and event.key in[K_o]:
+                    alphabets[14]=True
+                    mixer.music.load("asset/modes/alphabets/audio/o.mp3")
+                    mixer.music.play()
+                    alphabets[25]=False   
+
+            if event.type==KEYDOWN and event.key in[K_p]:
+                    alphabets[15]=True
+                    mixer.music.load("asset/modes/alphabets/audio/p.mp3")
+                    mixer.music.play()
+                    alphabets[25]=False
+
+            if event.type==KEYDOWN and event.key in[K_q]:
+                    alphabets[16]=True
+                    mixer.music.load("asset/modes/alphabets/audio/q.mp3")
+                    mixer.music.play()
+                    alphabets[25]=False
+                    
+            if event.type==KEYDOWN and event.key in[K_r]:
+                    alphabets[17]=True
+                    mixer.music.load("asset/modes/alphabets/audio/r.mp3")
+                    mixer.music.play()
+                    alphabets[25]=False
+
+            if event.type==KEYDOWN and event.key in[K_s]:
+                    alphabets[18]=True
+                    mixer.music.load("asset/modes/alphabets/audio/s.mp3")
+                    mixer.music.play()
+                    alphabets[25]=False 
+                    
+            if event.type==KEYDOWN and event.key in[K_t]:
+                alphabets[19]=True
+                mixer.music.load("asset/modes/alphabets/audio/t.mp3")
+                mixer.music.play()
+                alphabets[25]=False
+
+            if event.type==KEYDOWN and event.key in[K_u]:
+                alphabets[20]=True
+                mixer.music.load("asset/modes/alphabets/audio/u.mp3")
+                mixer.music.play()
+                alphabets[25]=False
+                
+            if event.type==KEYDOWN and event.key in[K_v]:
+                alphabets[21]=True
+                mixer.music.load("asset/modes/alphabets/audio/v.mp3")
+                mixer.music.play()
+                alphabets[25]=False
+
+            if event.type==KEYDOWN and event.key in[K_w]:
+                alphabets[22]=True
+                mixer.music.load("asset/modes/alphabets/audio/w.mp3")
+                mixer.music.play()
+                alphabets[25]=False     
+
+            if event.type==KEYDOWN and event.key in[K_x]:
+                alphabets[23]=True
+                mixer.music.load("asset/modes/alphabets/audio/x.mp3")
+                mixer.music.play()
+                alphabets[25]=False 
+
+            if event.type==KEYDOWN and event.key in[K_y]:
+                alphabets[24]=True
+                mixer.music.load("asset/modes/alphabets/audio/y.mp3")
+                mixer.music.play()
+                alphabets[25]=False
+
+            if event.type==KEYDOWN and event.key in[K_z]:
+                alphabets[25]=True
+                mixer.music.load("asset/modes/alphabets/audio/z.mp3")
+                mixer.music.play()
+                alphabets[0]=False
+
         window.blit(game_bg,game_bg_img)
         window.blit(arsh,(width/1.080,height/1.04))
         window.blit(quit,quitimg)
